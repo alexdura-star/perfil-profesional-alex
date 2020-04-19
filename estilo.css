@@ -42,6 +42,17 @@ div.contacto {
   border: black 2px solid;
 }
 
+div.PDF {
+  text-align: justify;
+  float: left;
+  text-align: center;
+  border: black 2px solid;
+}
+
+div.video {
+  text-align: right;
+  border: black 2px solid;
+}
 
 div.tecnico1 {
   text-align: right;
@@ -98,6 +109,12 @@ text-align: left;
     border: black 3px solid;
     text-align: center;
    }
+
+   div.caja8 {
+    border: black 3px solid;
+    text-align: center;
+    float: left;
+   }
   
   article p {
     margin: 0px;
@@ -147,6 +164,11 @@ text-align: left;
     text-align: justify;
     font-weight: bold;
   }
+  
+  p.p4 {
+    text-align: justify;
+    font-weight: bold;
+  }
 
   p.p5 {
     padding: 5px 0;
@@ -155,10 +177,13 @@ text-align: left;
     font-weight: bold;
     text-align: center; 
   }
-  
-  p.p4 {
-    text-align: justify;
+
+  p.p6 {
+    padding: 5px 0;
+    background-color: rgb(68, 117, 163);
+    font-size: 150%;
     font-weight: bold;
+    text-align: center; 
   }
 
   address {
